@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2021, DevMJS. All rights reserved.
+  ~ DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+  ~
+  ~ This code is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This code is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this code.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Please contact DevMJS on contact.devmjs@gmail.com if you need
+  ~ additional information or have any questions.
+  -->
+
+<resources>
+    <string name="app_name">计算器</string>
+    <string name="copy">复制</string>
+    <string name="text_copied">文本已复制</string>
+    <string name="history">历史</string>
+    <string name="choose_theme">选择主题</string>
+    <string name="ok">好的</string>
+    <string name="cancel">取消</string>
+    <string name="clear">清除</string>
+    <string name="clear_question">您确定要清除历史记录吗？</string>
+    <string name="no_history">没有历史</string>
+    <string name="no_history_to_clear">没有要清除的历史记录</string>
+    <string name="today">今天</string>
+    <string name="yesterday">昨天</string>
+    <string name="tomorrow">明天</string>
+
+    <string-array name="theme_options">
+        <item>光</item>
+        <item>黑暗的</item>
+        <item>系统默认</item>
+    </string-array>
+</resources>

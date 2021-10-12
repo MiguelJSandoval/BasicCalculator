@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2021, DevMJS. All rights reserved.
+  ~ DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+  ~
+  ~ This code is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This code is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Please contact DevMJS on contact.devmjs@gmail.com if you need
+  ~ additional information or have any questions.
+  -->
+
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="copy">Copiar</string>
+    <string name="text_copied">Texto copiado</string>
+    <string name="history">Historial</string>
+    <string name="choose_theme">Elegir tema</string>
+    <string name="ok">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="clear">Borrar</string>
+    <string name="clear_question">¿Está seguro que quiere borrar el historial?</string>
+    <string name="no_history">No hay historial</string>
+    <string name="no_history_to_clear">Sin historial para borrar</string>
+    <string name="today">Hoy</string>
+    <string name="yesterday">Ayer</string>
+    <string name="tomorrow">Mañana</string>
+
+    <string-array name="theme_options">
+        <item>Claro</item>
+        <item>Oscuro</item>
+        <item>Valor predeterminado de sistema</item>
+    </string-array>
+</resources>

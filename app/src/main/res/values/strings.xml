@@ -1,0 +1,52 @@
+<!--
+  ~ Copyright (c) 2021, DevMJS. All rights reserved.
+  ~ DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+  ~
+  ~ This code is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This code is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Please contact DevMJS on contact.devmjs@gmail.com if you need
+  ~ additional information or have any questions.
+  -->
+
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="error" translatable="false">Error</string>
+    <string name="math_error" translatable="false">Math error</string>
+    <string name="deg" translatable="false">deg</string>
+    <string name="rad" translatable="false">rad</string>
+    <string name="sin" translatable="false">sin</string>
+    <string name="cos" translatable="false">cos</string>
+    <string name="tan" translatable="false">tan</string>
+    <string name="lg" translatable="false">lg</string>
+    <string name="ln" translatable="false">ln</string>
+    <string name="copy">Copy</string>
+    <string name="text_copied">Text copied</string>
+    <string name="history">History</string>
+    <string name="choose_theme">Choose theme</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="clear">Clear</string>
+    <string name="clear_question">Are you sure you want to clear the history?</string>
+    <string name="no_history">No history</string>
+    <string name="no_history_to_clear">No history to clear</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="tomorrow">Tomorrow</string>
+
+    <string-array name="theme_options">
+        <item>Light</item>
+        <item>Dark</item>
+        <item>System default</item>
+    </string-array>
+</resources>

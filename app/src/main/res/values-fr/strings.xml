@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2021, DevMJS. All rights reserved.
+  ~ DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+  ~
+  ~ This code is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This code is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this code.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Please contact DevMJS on contact.devmjs@gmail.com if you need
+  ~ additional information or have any questions.
+  -->
+
+<resources>
+    <string name="app_name">Calculatrice</string>
+    <string name="copy">Copie</string>
+    <string name="text_copied">Texte copié</string>
+    <string name="history">Histoire</string>
+    <string name="choose_theme">Choisissez le thème</string>
+    <string name="ok">D\'accord</string>
+    <string name="cancel">Annuler</string>
+    <string name="clear">Dégager</string>
+    <string name="clear_question">Voulez-vous vraiment effacer l\'historique?</string>
+    <string name="no_history">Pas d\'historique</string>
+    <string name="no_history_to_clear">Aucun historique à effacer</string>
+    <string name="today">Aujourd\'hui</string>
+    <string name="yesterday">Hier</string>
+    <string name="tomorrow">Demain</string>
+
+    <string-array name="theme_options">
+        <item>Léger</item>
+        <item>Sombre</item>
+        <item>Défaillance du système</item>
+    </string-array>
+</resources>

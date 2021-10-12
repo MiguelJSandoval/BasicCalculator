@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2021, DevMJS. All rights reserved.
+  ~ DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+  ~
+  ~ This code is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This code is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this code.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Please contact DevMJS on contact.devmjs@gmail.com if you need
+  ~ additional information or have any questions.
+  -->
+
+<resources>
+    <string name="app_name">Calcolatrice</string>
+    <string name="copy">Copia</string>
+    <string name="text_copied">Testo copiato</string>
+    <string name="history">Cronologia</string>
+    <string name="choose_theme">Scegli il tema</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Annulla</string>
+    <string name="clear">Rimuovere</string>
+    <string name="clear_question">Sei sicuro di voler cancellare la cronologia?</string>
+    <string name="no_history">Nessuna cronologia</string>
+    <string name="no_history_to_clear">Nessuna cronologia da cancellare</string>
+    <string name="today">Oggi</string>
+    <string name="yesterday">Ieri</string>
+    <string name="tomorrow">Domani</string>
+
+    <string-array name="theme_options">
+        <item>Leggero</item>
+        <item>Buio</item>
+        <item>Default del sistema</item>
+    </string-array>
+</resources>

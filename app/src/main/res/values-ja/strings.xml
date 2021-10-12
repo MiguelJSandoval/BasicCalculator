@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2021, DevMJS. All rights reserved.
+  ~ DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+  ~
+  ~ This code is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This code is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this code.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Please contact DevMJS on contact.devmjs@gmail.com if you need
+  ~ additional information or have any questions.
+  -->
+
+<resources>
+    <string name="app_name">電卓</string>
+    <string name="copy">コピー</string>
+    <string name="text_copied">コピーされたテキスト</string>
+    <string name="history">記録</string>
+    <string name="choose_theme">テーマを選択</string>
+    <string name="ok">わかった</string>
+    <string name="cancel">キャンセルl</string>
+    <string name="clear">削除する</string>
+    <string name="clear_question">履歴をクリアしてもよろしいですか？</string>
+    <string name="no_history">履歴はありません</string>
+    <string name="no_history_to_clear">クリアする履歴はありません</string>
+    <string name="today">今日</string>
+    <string name="yesterday">昨日</string>
+    <string name="tomorrow">明日</string>
+
+    <string-array name="theme_options">
+        <item>光</item>
+        <item>暗い</item>
+        <item>システムのデフォルト</item>
+    </string-array>
+</resources>
