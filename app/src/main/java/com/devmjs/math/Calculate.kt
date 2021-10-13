@@ -23,6 +23,9 @@ package com.devmjs.math
 
 import java.math.RoundingMode
 import java.text.DecimalFormat
+import java.text.DecimalFormatSymbols
+import java.util.*
+import kotlin.collections.ArrayList
 
 /**
  *  Loop the String looking from the pairs of inner parentheses
@@ -502,7 +505,8 @@ private fun isFactorial(_st: String): Boolean = _st == Constants.fact
 
 private fun round(_number: String): String
 {
-    val decimalFormat = DecimalFormat(".#############")
+    val decimalFormatSymbols = DecimalFormatSymbols(Locale("en"))
+    val decimalFormat = DecimalFormat(".#############", decimalFormatSymbols)
     decimalFormat.roundingMode = RoundingMode.HALF_UP
     val res = decimalFormat.format(_number.toDouble())
     return if (res.isEmpty() || res == ".0") "0" else res
