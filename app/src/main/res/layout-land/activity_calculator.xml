@@ -110,6 +110,7 @@
                         android:singleLine="true"
                         android:keepScreenOn="false"
                         android:longClickable="true"
+                        android:inputType="textMultiLine|textNoSuggestions"
                         android:textColor="?android:textColor"
                         android:textCursorDrawable="@drawable/cursor"
                         android:textSize="@dimen/dim_txt_view_txt"

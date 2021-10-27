@@ -109,7 +109,7 @@
                         android:fontFamily="sans-serif"
                         android:gravity="bottom|end"
                         android:includeFontPadding="false"
-                        android:inputType="textMultiLine"
+                        android:inputType="textMultiLine|textNoSuggestions"
                         android:keepScreenOn="false"
                         android:longClickable="true"
                         android:singleLine="false"
