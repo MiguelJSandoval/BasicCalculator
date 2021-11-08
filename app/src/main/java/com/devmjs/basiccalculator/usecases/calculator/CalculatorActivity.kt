@@ -60,7 +60,7 @@ class CalculatorActivity: AppCompatActivity(),
         registerForActivityResult(ActivityResultContracts.StartActivityForResult()) {
             if (it.resultCode == RESULT_OK && it.data != null)
             {
-                val str = it.data!!.getStringExtra("TEXT")
+                val str = it.data!!.getStringExtra(HistoryActivity.KEY_ON_ITEM_CLICKED)
                 if (!str.isNullOrBlank() && viewModel.actionSymbols(str, null))
                     setTexts()
             }

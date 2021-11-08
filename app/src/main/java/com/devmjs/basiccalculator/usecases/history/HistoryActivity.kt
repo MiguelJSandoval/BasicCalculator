@@ -38,6 +38,7 @@ import com.devmjs.basiccalculator.provider.PreferencesProvider
 import com.devmjs.basiccalculator.usecases.history.utils.History
 import com.devmjs.basiccalculator.usecases.history.utils.HistoryProvider
 import com.devmjs.basiccalculator.usecases.history.customviews.HistoryView
+import com.devmjs.basiccalculator.usecases.history.utils.HistorySorter
 import com.devmjs.basiccalculator.usecases.history.utils.OnItemClickedListener
 import com.devmjs.basiccalculator.utils.Methods
 import java.lang.Exception
@@ -48,6 +49,11 @@ class HistoryActivity: AppCompatActivity(), OnItemClickedListener
     private var isDarkTheme = false
     private lateinit var history: History
     private var clicked = false
+
+    companion object
+    {
+        const val KEY_ON_ITEM_CLICKED = "OPERATION_SELECTED"
+    }
 
     override fun onCreate(savedInstanceState: Bundle?)
     {
@@ -147,10 +153,10 @@ class HistoryActivity: AppCompatActivity(), OnItemClickedListener
         {
             if (history.map.size > 0)
             {
-                for (i in history.map.toSortedMap())
+                for (i in HistorySorter.sort(history))
                 {
                     val historyView = HistoryView(applicationContext, isDarkTheme, this)
-                    historyView.setData(DateProvider.parseDate(i.key, applicationContext), i.value)
+                    historyView.setData(DateProvider.parseDate(i.first, applicationContext), i.second)
                     root.list.addView(historyView)
                 }
             } else
@@ -167,7 +173,7 @@ class HistoryActivity: AppCompatActivity(), OnItemClickedListener
         if (!clicked)
         {
             clicked = true
-            val i = Intent().apply { putExtra("TEXT", text) }
+            val i = Intent().apply { putExtra(KEY_ON_ITEM_CLICKED, text) }
             setResult(RESULT_OK, i)
             finish()
         }

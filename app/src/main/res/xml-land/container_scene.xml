@@ -25,7 +25,7 @@
     <Transition
         motion:constraintSetEnd="@+id/end_container"
         motion:constraintSetStart="@id/start"
-        motion:duration="400">
+        motion:duration="1">
     </Transition>
 
     <ConstraintSet android:id="@+id/start">
